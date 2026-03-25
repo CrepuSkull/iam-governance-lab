@@ -1,0 +1,6 @@
+SamAccountName,DisplayName,ExclusionType,Reason,ExemptedBy,ExemptionDate,ReviewDate,ExtensionAttribute
+svc_backup,Service Backup,ServiceAccount,Compte de service critique - sauvegarde nocturne,mlaurent,2024-01-15,2026-01-15,Exempt_IGA
+svc_monitoring,Service Monitoring,ServiceAccount,Compte de service SIEM - pas de logon interactif,mlaurent,2024-01-15,2026-01-15,Exempt_IGA
+a-mlaurent,Admin - Michel Laurent,BreakGlass,Compte break-glass administrateur - ne doit jamais expirer,mlaurent,2024-01-15,2025-07-15,Exempt_IGA
+ext_consultant_XYZ,Consultant Externe XYZ,ExternalContractor,Contrat cadre - connexion trimestrielle normale,mlaurent,2025-01-01,2025-12-31,Exempt_90J
+cfontaine,Christine Fontaine,LongLeave,Congé maternité jusqu'au 2025-09-01 - RH confirmé,amartin,2025-03-01,2025-09-01,Exempt_90J

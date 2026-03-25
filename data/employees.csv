@@ -1,0 +1,11 @@
+EmployeeID,FirstName,LastName,Department,Location,JobTitle,Status,Manager,StartDate,EndDate
+E001,Jean,Dupont,Finance,Paris,Comptable,Active,E005,2022-03-01,
+E002,Sarah,Lefebvre,IT,Lyon,Développeur,Active,E005,2021-06-15,
+E003,Arnaud,Martin,RH,Paris,Gestionnaire RH,Active,E005,2023-01-10,
+E004,Claire,Bernard,Finance,Paris,Analyste Financier,Active,E005,2020-09-01,
+E005,Michel,Laurent,IT,Paris,DSI,Active,,2019-04-01,
+E006,Nadia,Fontaine,Marketing,Lyon,Chef de Projet,Terminated,E005,2021-02-01,2024-12-31
+E007,Thomas,Renard,IT,Paris,Administrateur Systèmes,Inactive,E005,2022-11-01,
+E008,Lucie,Moreau,Finance,Paris,Contrôleur de Gestion,Active,E001,2023-06-01,
+E009,Pierre,Duval,IT,Lyon,Technicien Support,Active,E002,2020-05-01,
+E010,Ambre,Leclerc,RH,Paris,Chargée de Recrutement,Active,E003,2024-01-15,
