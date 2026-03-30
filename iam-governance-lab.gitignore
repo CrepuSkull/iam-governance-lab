@@ -1,0 +1,74 @@
+# ─────────────────────────────────────────────
+# RAPPORTS ET CAMPAGNES — données clients sensibles
+# ─────────────────────────────────────────────
+Reports/
+Campaigns/
+*.csv
+!templates/*.csv
+!docs/*.csv
+
+# ─────────────────────────────────────────────
+# LOGS D'EXÉCUTION GOUVERNANCE
+# ─────────────────────────────────────────────
+*.log
+Audit-*.log
+Campaign-*.log
+Disable-Inactive-*.log
+Escalate-*.log
+Recertification-*.log
+
+# ─────────────────────────────────────────────
+# FICHIERS DE SCELLAGE (si utilisé avec iam-evidence-sealer)
+# ─────────────────────────────────────────────
+*.sha256
+*.manifest
+*.tsr
+
+# ─────────────────────────────────────────────
+# DONNÉES DE RECERTIFICATION — réponses des managers
+# ─────────────────────────────────────────────
+Campaign_*_Validated.csv
+Campaign_*_Responses.csv
+Campaign_*_Executed.csv
+Audit_Score_*.json
+
+# ─────────────────────────────────────────────
+# CREDENTIALS ET CONFIGURATION LOCALE
+# ─────────────────────────────────────────────
+*.pfx
+*.p12
+*.key
+*.pem
+config.local.ps1
+config.local.json
+.env
+*credentials*.json
+*secret*.json
+
+# ─────────────────────────────────────────────
+# NOTIFICATIONS — données destinataires
+# ─────────────────────────────────────────────
+Notification_Log_*.csv
+SMTP_Config.ps1
+
+# ─────────────────────────────────────────────
+# FICHIERS TEMPORAIRES POWERSHELL
+# ─────────────────────────────────────────────
+*.ps1xml
+*.tmp
+*.bak
+
+# ─────────────────────────────────────────────
+# SYSTÈME
+# ─────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+
+# ─────────────────────────────────────────────
+# IDE / ÉDITEURS
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
